@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "Knockout for the Xaml Developer";
+}
+@section featured {
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h2>@ViewBag.Message</h2>
+            </hgroup>            
+        </div>
+    </section>
+}
+
+<h3>Demo Area</h3>
+<br />
+<div class="demoArea">
+    <span data-bind="text: DisplayMessage"></span>
+</div>
+
+

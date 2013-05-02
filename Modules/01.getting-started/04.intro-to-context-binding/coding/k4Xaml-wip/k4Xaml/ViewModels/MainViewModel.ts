@@ -1,5 +1,4 @@
 /// <reference path="../Scripts/typings/jquery/jquery.d.ts" />
-/// <reference path="../Scripts/typings/knockout.mapping/knockout.mapping.d.ts" />
 /// <reference path="../Scripts/typings/knockout/knockout.d.ts" />
 
 module k4xaml {
@@ -7,3 +6,9 @@ module k4xaml {
         public DisplayMessage: KnockoutObservableString = ko.observable("Hello XAML Developers");
     }
 }
+
+
+
+<span data - bind = "text: DisplayMessage" > < / span >
+
+<input type = "checkbox" data - bind = "checked: DisplayValue" / >

@@ -1,0 +1,17 @@
+Q) When working with an Observable Property what is the correct way to set its value
+- this.PropertyName = "Some Value";
+- this.PropertyName[ "Some Value" ];
+* this.PropertyName( "Some Value");
+= getting-started-09-introtoobservableproperties-coding.wmv
+
+Q) How do you bind a view model to knockout?
+- ko.bind(MyViewModel);
+- ko.DataContext = MyViewModel;
+* ko.applyBindings(MyViewModel);
+- ko.appyBindings = MyViewModel;
+= getting-started-07-introtocontextbinding-coding.wmv
+
+Q) In order for a Computed Observable to update it must have at least one other Observable property as a dependency?
+- False
+* True
+= getting-started-13-introductiontocomputedobservables-coding.wmv

@@ -4,6 +4,6 @@
  
 module k4xaml {
     export class MainViewModel {
-
+        public IsActive: KnockoutObservableBool = ko.observable(true);
     }
 }

@@ -1,0 +1,15 @@
+public Sports: KnockoutObservableArray = ko.observableArray([]);
+public SelectedSports: KnockoutObservableArray = ko.observableArray([]);
+
+       constructor() {
+            this.Sports.push({ id: 1, Name: 'Baseball' });
+            this.Sports.push({ id: 2, Name: 'Football' });
+            this.Sports.push({ id: 3, Name: 'Basketball' });
+            this.Sports.push({ id: 4, Name: 'Soccer' });
+        }
+
+    Sports: <select data-bind="options: Sports, optionsText: 'Name',
+    optionsCaption: 'Select A Sport', selectedOptions: SelectedSports" multiple="true"></select>
+    
+    <br/>
+    Choosen Sports <select data-bind="options: SelectedSports, optionsText: 'Name'"></select>

@@ -4,7 +4,6 @@
  
 module k4xaml {
     export class MainViewModel {
-    
-        
+        public FavoriteSport: KnockoutObservableString = ko.observable("Baseball");
     }
 }

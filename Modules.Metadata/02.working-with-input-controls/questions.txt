@@ -1,0 +1,23 @@
+Q) By default input binding in Knockout is bi-directional by default?
+- False
+* True
+= input-controls-03-setup-basic-text-input-bindings-coding.wmv
+
+Q) When binding to a text (read-only) control such as a the <span /> or <p /> control, which binder do you use?
+- value
+* text
+- option
+- span
+= input-controls-05-setup-basic-text-display-bindings-slides.wmv
+
+Q) In Knockout I am only able to bind to HTML controls such as Input, Span or Checkbox controls
+* False
+- True
+= input-controls-07-setup-nonobservable-text-display-bindings-coding.wmv
+
+Q) When binding to a boolean input control such as a Checkbox or a Radio button, which binder do you use?
+* checked
+- input
+- text
+- boolean
+= input-controls-09-setup-checkbox-radio-bindings-coding.wmv

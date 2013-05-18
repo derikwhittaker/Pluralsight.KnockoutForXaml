@@ -1,7 +1,9 @@
 var k4xaml;
 (function (k4xaml) {
     var MainViewModel = (function () {
-        function MainViewModel() { }
+        function MainViewModel() {
+            this.FavoriteSport = ko.observable("Baseball");
+        }
         return MainViewModel;
     })();
     k4xaml.MainViewModel = MainViewModel;    

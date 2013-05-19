@@ -1,0 +1,30 @@
+        public FirstName: KnockoutObservableString = ko.observable("");
+        public LastName: KnockoutObservableString = ko.observable("");
+        public DisplayValue: KnockoutObservableString = ko.observable("");
+
+    <form>  
+        <input type="text" data-bind="value: FirstName" />
+        <br/>
+        <input type="text" data-bind="value: LastName" />
+        <br/>
+        
+    </form>
+    
+    Display <!--ko text: DisplayValue--><!--/ko-->
+
+
+
+
+<input type="button" data-bind="click: Save" value="Save" />
+
+        public Save() {
+            var self = this;
+
+            self.DisplayValue(self.FirstName() + " " + self.LastName());
+        }
+
+
+       public Save(data) {
+
+            data.DisplayValue(data.FirstName() + " " + data.LastName());
+        }

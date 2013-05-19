@@ -6,7 +6,7 @@ namespace k4Xaml.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Message = "Introduction to Click Bindings";
+            ViewBag.Message = "Introduction to Click Bindings -- Non-Button Controls";
 
             return View();
         }
